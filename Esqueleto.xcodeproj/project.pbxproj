@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0526D79920C99EAA0073B3DB /* MenuSuperior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D79320C99EA90073B3DB /* MenuSuperior.swift */; };
+		0526D79A20C99EAA0073B3DB /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D79420C99EA90073B3DB /* Extensiones.swift */; };
+		0526D79B20C99EAA0073B3DB /* FuncionesGenerales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D79520C99EA90073B3DB /* FuncionesGenerales.swift */; };
+		0526D79C20C99EAA0073B3DB /* MenuInferior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D79620C99EA90073B3DB /* MenuInferior.swift */; };
+		0526D79D20C99EAA0073B3DB /* CargadorPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D79720C99EAA0073B3DB /* CargadorPrincipal.swift */; };
+		0526D7A020C99F050073B3DB /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D79F20C99F050073B3DB /* InicioController.swift */; };
+		0526D7A220C99FD80073B3DB /* LoNuestroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D7A120C99FD80073B3DB /* LoNuestroController.swift */; };
+		0526D7A420C9A0160073B3DB /* BuscadorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D7A320C9A0160073B3DB /* BuscadorController.swift */; };
+		0526D7A620C9A0430073B3DB /* WifiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D7A520C9A0430073B3DB /* WifiController.swift */; };
+		0526D7A820C9A0780073B3DB /* ServiciosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D7A720C9A0780073B3DB /* ServiciosController.swift */; };
+		0526D7AA20C9A1CD0073B3DB /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526D7A920C9A1CD0073B3DB /* MenuController.swift */; };
 		058AACBF20C97DD300958E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AACBE20C97DD300958E26 /* AppDelegate.swift */; };
-		058AACC120C97DD300958E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AACC020C97DD300958E26 /* ViewController.swift */; };
 		058AACC420C97DD300958E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058AACC220C97DD300958E26 /* Main.storyboard */; };
 		058AACC720C97DD300958E26 /* Esqueleto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 058AACC520C97DD300958E26 /* Esqueleto.xcdatamodeld */; };
 		058AACC920C97DD800958E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058AACC820C97DD800958E26 /* Assets.xcassets */; };
 		058AACCC20C97DD800958E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058AACCA20C97DD800958E26 /* LaunchScreen.storyboard */; };
 		058AACD720C97DD800958E26 /* EsqueletoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AACD620C97DD800958E26 /* EsqueletoTests.swift */; };
 		058AACE220C97DD800958E26 /* EsqueletoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AACE120C97DD800958E26 /* EsqueletoUITests.swift */; };
+		058AACF320C97E6300958E26 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058AACF120C97E6300958E26 /* SWRevealViewController.m */; };
+		058AAD0620C992CB00958E26 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AAD0520C992CB00958E26 /* LoginController.swift */; };
+		058AAD0820C992D200958E26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 058AAD0720C992D200958E26 /* GoogleService-Info.plist */; };
+		157EE4D469F0D1E943B07DC9 /* Pods_EsqueletoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1268B683B6A8D85413FF7A31 /* Pods_EsqueletoUITests.framework */; };
+		99779C745E1C4A44FD3ACE52 /* Pods_EsqueletoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356E1E28F916CC2B56510363 /* Pods_EsqueletoTests.framework */; };
+		9B32B83BCE5B17B48E00F1AA /* Pods_Esqueleto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE1F3CE1B3ABA84CC4E6542 /* Pods_Esqueleto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +51,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0526D79320C99EA90073B3DB /* MenuSuperior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSuperior.swift; sourceTree = "<group>"; };
+		0526D79420C99EA90073B3DB /* Extensiones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
+		0526D79520C99EA90073B3DB /* FuncionesGenerales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncionesGenerales.swift; sourceTree = "<group>"; };
+		0526D79620C99EA90073B3DB /* MenuInferior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuInferior.swift; sourceTree = "<group>"; };
+		0526D79720C99EAA0073B3DB /* CargadorPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CargadorPrincipal.swift; sourceTree = "<group>"; };
+		0526D79F20C99F050073B3DB /* InicioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
+		0526D7A120C99FD80073B3DB /* LoNuestroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoNuestroController.swift; sourceTree = "<group>"; };
+		0526D7A320C9A0160073B3DB /* BuscadorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscadorController.swift; sourceTree = "<group>"; };
+		0526D7A520C9A0430073B3DB /* WifiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiController.swift; sourceTree = "<group>"; };
+		0526D7A720C9A0780073B3DB /* ServiciosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiciosController.swift; sourceTree = "<group>"; };
+		0526D7A920C9A1CD0073B3DB /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		058AACBB20C97DD300958E26 /* Esqueleto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esqueleto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058AACBE20C97DD300958E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		058AACC020C97DD300958E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		058AACC320C97DD300958E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		058AACC620C97DD300958E26 /* Esqueleto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Esqueleto.xcdatamodel; sourceTree = "<group>"; };
 		058AACC820C97DD800958E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +75,20 @@
 		058AACDD20C97DD800958E26 /* EsqueletoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsqueletoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		058AACE120C97DD800958E26 /* EsqueletoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueletoUITests.swift; sourceTree = "<group>"; };
 		058AACE320C97DD800958E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058AACF020C97E6200958E26 /* Esqueleto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Esqueleto-Bridging-Header.h"; sourceTree = "<group>"; };
+		058AACF120C97E6300958E26 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		058AACF220C97E6300958E26 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		058AAD0520C992CB00958E26 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		058AAD0720C992D200958E26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1268B683B6A8D85413FF7A31 /* Pods_EsqueletoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsqueletoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1471404F4CE6EDB465571B6E /* Pods-Esqueleto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esqueleto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Esqueleto/Pods-Esqueleto.debug.xcconfig"; sourceTree = "<group>"; };
+		2E57F1648F75E9378B6327A7 /* Pods-EsqueletoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsqueletoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EsqueletoTests/Pods-EsqueletoTests.release.xcconfig"; sourceTree = "<group>"; };
+		356E1E28F916CC2B56510363 /* Pods_EsqueletoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsqueletoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		385E80054B3D1EF249AC09EA /* Pods-EsqueletoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsqueletoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EsqueletoUITests/Pods-EsqueletoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		416CE884FA833E15E89CE235 /* Pods-Esqueleto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esqueleto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Esqueleto/Pods-Esqueleto.release.xcconfig"; sourceTree = "<group>"; };
+		77EB317646B134F2075DB23D /* Pods-EsqueletoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsqueletoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EsqueletoUITests/Pods-EsqueletoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7DE1F3CE1B3ABA84CC4E6542 /* Pods_Esqueleto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Esqueleto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53AF3807BE2933095F4CF28 /* Pods-EsqueletoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsqueletoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EsqueletoTests/Pods-EsqueletoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B32B83BCE5B17B48E00F1AA /* Pods_Esqueleto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99779C745E1C4A44FD3ACE52 /* Pods_EsqueletoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157EE4D469F0D1E943B07DC9 /* Pods_EsqueletoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0526D79220C99E8A0073B3DB /* FuncionesGenerales */ = {
+			isa = PBXGroup;
+			children = (
+				0526D79420C99EA90073B3DB /* Extensiones.swift */,
+				0526D79520C99EA90073B3DB /* FuncionesGenerales.swift */,
+				0526D79620C99EA90073B3DB /* MenuInferior.swift */,
+				0526D79320C99EA90073B3DB /* MenuSuperior.swift */,
+				0526D79720C99EAA0073B3DB /* CargadorPrincipal.swift */,
+			);
+			path = FuncionesGenerales;
+			sourceTree = "<group>";
+		};
 		058AACB220C97DD300958E26 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +138,8 @@
 				058AACD520C97DD800958E26 /* EsqueletoTests */,
 				058AACE020C97DD800958E26 /* EsqueletoUITests */,
 				058AACBC20C97DD300958E26 /* Products */,
+				57A28FC63136EA488EC4C28F /* Pods */,
+				B643A497D0CE257A13EC9FCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +156,22 @@
 		058AACBD20C97DD300958E26 /* Esqueleto */ = {
 			isa = PBXGroup;
 			children = (
+				0526D79220C99E8A0073B3DB /* FuncionesGenerales */,
+				058AACEF20C97DF300958E26 /* ObjectiveC */,
 				058AACBE20C97DD300958E26 /* AppDelegate.swift */,
-				058AACC020C97DD300958E26 /* ViewController.swift */,
+				058AAD0720C992D200958E26 /* GoogleService-Info.plist */,
 				058AACC220C97DD300958E26 /* Main.storyboard */,
 				058AACC820C97DD800958E26 /* Assets.xcassets */,
 				058AACCA20C97DD800958E26 /* LaunchScreen.storyboard */,
 				058AACCD20C97DD800958E26 /* Info.plist */,
 				058AACC520C97DD300958E26 /* Esqueleto.xcdatamodeld */,
+				058AAD0520C992CB00958E26 /* LoginController.swift */,
+				0526D7A920C9A1CD0073B3DB /* MenuController.swift */,
+				0526D79F20C99F050073B3DB /* InicioController.swift */,
+				0526D7A120C99FD80073B3DB /* LoNuestroController.swift */,
+				0526D7A320C9A0160073B3DB /* BuscadorController.swift */,
+				0526D7A520C9A0430073B3DB /* WifiController.swift */,
+				0526D7A720C9A0780073B3DB /* ServiciosController.swift */,
 			);
 			path = Esqueleto;
 			sourceTree = "<group>";
@@ -128,6 +194,39 @@
 			path = EsqueletoUITests;
 			sourceTree = "<group>";
 		};
+		058AACEF20C97DF300958E26 /* ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				058AACF220C97E6300958E26 /* SWRevealViewController.h */,
+				058AACF120C97E6300958E26 /* SWRevealViewController.m */,
+				058AACF020C97E6200958E26 /* Esqueleto-Bridging-Header.h */,
+			);
+			path = ObjectiveC;
+			sourceTree = "<group>";
+		};
+		57A28FC63136EA488EC4C28F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1471404F4CE6EDB465571B6E /* Pods-Esqueleto.debug.xcconfig */,
+				416CE884FA833E15E89CE235 /* Pods-Esqueleto.release.xcconfig */,
+				C53AF3807BE2933095F4CF28 /* Pods-EsqueletoTests.debug.xcconfig */,
+				2E57F1648F75E9378B6327A7 /* Pods-EsqueletoTests.release.xcconfig */,
+				385E80054B3D1EF249AC09EA /* Pods-EsqueletoUITests.debug.xcconfig */,
+				77EB317646B134F2075DB23D /* Pods-EsqueletoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B643A497D0CE257A13EC9FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE1F3CE1B3ABA84CC4E6542 /* Pods_Esqueleto.framework */,
+				356E1E28F916CC2B56510363 /* Pods_EsqueletoTests.framework */,
+				1268B683B6A8D85413FF7A31 /* Pods_EsqueletoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058AACE620C97DD800958E26 /* Build configuration list for PBXNativeTarget "Esqueleto" */;
 			buildPhases = (
+				95D0973CB23734BEC1E16553 /* [CP] Check Pods Manifest.lock */,
 				058AACB720C97DD300958E26 /* Sources */,
 				058AACB820C97DD300958E26 /* Frameworks */,
 				058AACB920C97DD300958E26 /* Resources */,
+				53A0532475168228D4AFDB66 /* [CP] Embed Pods Frameworks */,
+				2AC97C14B46E88A4D8852FF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058AACE920C97DD800958E26 /* Build configuration list for PBXNativeTarget "EsqueletoTests" */;
 			buildPhases = (
+				3AACAF72C3D5E806A3128F81 /* [CP] Check Pods Manifest.lock */,
 				058AACCE20C97DD800958E26 /* Sources */,
 				058AACCF20C97DD800958E26 /* Frameworks */,
 				058AACD020C97DD800958E26 /* Resources */,
+				443082B3211CB42D814517CE /* [CP] Embed Pods Frameworks */,
+				0C237E74BBF2CE51005786EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058AACEC20C97DD800958E26 /* Build configuration list for PBXNativeTarget "EsqueletoUITests" */;
 			buildPhases = (
+				A8A1CDC4BFBB72BED87BEF2F /* [CP] Check Pods Manifest.lock */,
 				058AACD920C97DD800958E26 /* Sources */,
 				058AACDA20C97DD800958E26 /* Frameworks */,
 				058AACDB20C97DD800958E26 /* Resources */,
+				975D7B52AA5D115ACFED8E54 /* [CP] Embed Pods Frameworks */,
+				827BE4C8F7396BCEA398F811 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +304,7 @@
 				TargetAttributes = {
 					058AACBA20C97DD300958E26 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					058AACD120C97DD800958E26 = {
 						CreatedOnToolsVersion = 9.4;
@@ -233,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				058AACCC20C97DD800958E26 /* LaunchScreen.storyboard in Resources */,
+				058AAD0820C992D200958E26 /* GoogleService-Info.plist in Resources */,
 				058AACC920C97DD800958E26 /* Assets.xcassets in Resources */,
 				058AACC420C97DD300958E26 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +364,203 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C237E74BBF2CE51005786EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EsqueletoTests/Pods-EsqueletoTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EsqueletoTests/Pods-EsqueletoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AC97C14B46E88A4D8852FF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Esqueleto/Pods-Esqueleto-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Esqueleto/Pods-Esqueleto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AACAF72C3D5E806A3128F81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EsqueletoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		443082B3211CB42D814517CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EsqueletoTests/Pods-EsqueletoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EsqueletoTests/Pods-EsqueletoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53A0532475168228D4AFDB66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Esqueleto/Pods-Esqueleto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Esqueleto/Pods-Esqueleto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		827BE4C8F7396BCEA398F811 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EsqueletoUITests/Pods-EsqueletoUITests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EsqueletoUITests/Pods-EsqueletoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D0973CB23734BEC1E16553 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Esqueleto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		975D7B52AA5D115ACFED8E54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EsqueletoUITests/Pods-EsqueletoUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EsqueletoUITests/Pods-EsqueletoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A1CDC4BFBB72BED87BEF2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EsqueletoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		058AACB720C97DD300958E26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058AACC120C97DD300958E26 /* ViewController.swift in Sources */,
+				0526D7A620C9A0430073B3DB /* WifiController.swift in Sources */,
+				0526D79D20C99EAA0073B3DB /* CargadorPrincipal.swift in Sources */,
 				058AACC720C97DD300958E26 /* Esqueleto.xcdatamodeld in Sources */,
 				058AACBF20C97DD300958E26 /* AppDelegate.swift in Sources */,
+				0526D79B20C99EAA0073B3DB /* FuncionesGenerales.swift in Sources */,
+				0526D79920C99EAA0073B3DB /* MenuSuperior.swift in Sources */,
+				058AACF320C97E6300958E26 /* SWRevealViewController.m in Sources */,
+				0526D7A820C9A0780073B3DB /* ServiciosController.swift in Sources */,
+				0526D7A420C9A0160073B3DB /* BuscadorController.swift in Sources */,
+				0526D7A020C99F050073B3DB /* InicioController.swift in Sources */,
+				0526D7AA20C9A1CD0073B3DB /* MenuController.swift in Sources */,
+				0526D79A20C99EAA0073B3DB /* Extensiones.swift in Sources */,
+				0526D7A220C99FD80073B3DB /* LoNuestroController.swift in Sources */,
+				058AAD0620C992CB00958E26 /* LoginController.swift in Sources */,
+				0526D79C20C99EAA0073B3DB /* MenuInferior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +731,10 @@
 		};
 		058AACE720C97DD800958E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1471404F4CE6EDB465571B6E /* Pods-Esqueleto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Esqueleto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,6 +743,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoreData.Esqueleto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Esqueleto/ObjectiveC/Esqueleto-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,8 +752,10 @@
 		};
 		058AACE820C97DD800958E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416CE884FA833E15E89CE235 /* Pods-Esqueleto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Esqueleto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +764,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoreData.Esqueleto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Esqueleto/ObjectiveC/Esqueleto-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +772,7 @@
 		};
 		058AACEA20C97DD800958E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C53AF3807BE2933095F4CF28 /* Pods-EsqueletoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +793,7 @@
 		};
 		058AACEB20C97DD800958E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E57F1648F75E9378B6327A7 /* Pods-EsqueletoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +814,7 @@
 		};
 		058AACED20C97DD800958E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385E80054B3D1EF249AC09EA /* Pods-EsqueletoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +834,7 @@
 		};
 		058AACEE20C97DD800958E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77EB317646B134F2075DB23D /* Pods-EsqueletoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

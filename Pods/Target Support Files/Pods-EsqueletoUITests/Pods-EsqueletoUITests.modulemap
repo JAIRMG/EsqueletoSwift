@@ -1,0 +1,6 @@
+framework module Pods_EsqueletoUITests {
+  umbrella header "Pods-EsqueletoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
